@@ -6,11 +6,11 @@ This template use a perl script to retrieve the index to pool.
 You need to install the script __cisco.cos.discovery__ in the discovery directory and have the following package installed on your distribution:
 
 * For RHEL distribution
- - perl-Net-SNMP
- - perl-JSON
- - perl-Pod-Usage
- - perl-Data-Dumper
- - perl-Getopt-Long
+    - perl-Net-SNMP
+    - perl-JSON
+    - perl-Pod-Usage
+    - perl-Data-Dumper
+    - perl-Getopt-Long
 
 Warning, you need to check the mode of the script (it should be executable by the zabbix user) and, to avoid issue with the selinux right, you should have the profile __zabbix_script_exec_t__
 
